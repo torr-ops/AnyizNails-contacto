@@ -3,45 +3,162 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contacto</title>
+  <title>Anyeling Nails | Enlaces</title>
+  <!-- Google Fonts para un estilo elegante y moderno -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #181818;
+      font-family: 'Poppins', sans-serif;
+      /* Fondo claro elegante simulando la estética del diseño */
+      background: linear-gradient(135deg, #f9f6f0 0%, #ece5dc 100%);
+      color: #333333;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh;
       margin: 0;
+      padding: 20px;
     }
-    .card {
+
+    .container {
       background: #ffffff;
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 30px 20px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(185, 153, 98, 0.15);
       text-align: center;
-      max-width: 300px;
+      max-width: 400px;
       width: 100%;
+      border: 1px solid #e6d7c3;
     }
+
+    /* Estilo del Logo / Título */
+    .logo-area h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      color: #bfa15f; /* Tono dorado elegante */
+      margin-bottom: 5px;
+      letter-spacing: 1px;
+    }
+
+    .logo-area p.subtitle {
+      font-size: 12px;
+      color: #888888;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 25px;
+    }
+
+    /* Mensaje de bienvenida */
+    .welcome-box {
+      background-color: #faf7f2;
+      border-radius: 12px;
+      padding: 15px;
+      margin-bottom: 25px;
+      border-left: 3px solid #bfa15f;
+      text-align: left;
+    }
+
+    .welcome-box h3 {
+      font-size: 15px;
+      color: #444444;
+      margin: 0 0 8px 0;
+      font-weight: 600;
+    }
+
+    .welcome-box p {
+      font-size: 13px;
+      color: #666666;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    /* Botones elegantes estilo tarjeta */
     .btn {
-      display: block;
-      padding: 12px;
-      margin: 15px 0;
-      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      border: 1.5px solid #d4af37; /* Borde dorado */
+      color: #4a4a4a;
       text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
+      padding: 12px 15px;
+      margin: 12px 0;
+      border-radius: 30px;
+      font-weight: 500;
+      font-size: 14px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.02);
     }
-    .btn-ig { background-color: #E1306C; }
-    .btn-wa { background-color: #25D366; }
+
+    .btn:hover {
+      background-color: #bfa15f;
+      color: #ffffff;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(191, 161, 95, 0.3);
+    }
+
+    .btn span.main-text {
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn span.sub-text {
+      font-size: 11px;
+      color: #888888;
+      margin-top: 2px;
+      font-weight: 300;
+    }
+
+    .btn:hover span.sub-text {
+      color: #f9f6f0;
+    }
+
+    /* Sección de imagen inferior (opcional para mantener la estética) */
+    .preview-image {
+      margin-top: 25px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #e6d7c3;
+    }
+
+    .preview-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
   </style>
 </head>
 <body>
 
-  <div class="card">
-    <h2>Anyi Z nails Informacion</h2>
-    <a href="https://www.instagram.com/anyi.z_nails?utm_source=ig_web_button_share_sheet&cplk=ZDNlZDc0MzIxNw==" class="btn btn-ig" target="_blank">Instagram</a>
-    <a href="https://wa.me/+584128000371" class="btn btn-wa" target="_blank">WhatsApp</a>
+  <div class="container">
+    
+    <!-- Encabezado de la marca -->
+    <div class="logo-area">
+      <h1>AZ nails</h1>
+      <p class="subtitle">Anyeling Nails</p>
+    </div>
+
+    <!-- Bloque de bienvenida -->
+    <div class="welcome-box">
+      <h3>¡HOLA, DIVINA! ✨</h3>
+      <p>Bienvenida a Anyeling Nails. Especialista en Manicura Combinada, Soft Gel, Pelyget, Rapping y Diseños Artísticos. Realze la belleza de tus manos en Maracaibo. 💅</p>
+    </div>
+
+    <!-- Botón 1: WhatsApp -->
+    <a href="https://wa.me/58TU_NUMERO?text=Hola,%20quisiera%20agendar%20una%20cita" class="btn" target="_blank">
+      <span class="main-text">💬 AGENDAR CITA POR WHATSAPP</span>
+      <span class="sub-text">(Para pedir tu turno en segundos)</span>
+    </a>
+
+    <!-- Botón 2: Instagram -->
+    <a href="https://instagram.com/TU_USUARIO" class="btn" target="_blank">
+      <span class="main-text">📸 VER MIS TRABAJOS (INSTAGRAM)</span>
+      <span class="sub-text">(Inspirate con mis diseños)</span>
+    </a>
+
   </div>
 
 </body>
