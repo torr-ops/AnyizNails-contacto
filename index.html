@@ -9,8 +9,14 @@
   <style>
     body {
       font-family: 'Montserrat', sans-serif;
-      background: linear-gradient(135deg, #fbf9f5 0%, #f0e9df 100%);
-      color: #333333;
+      /* --- CAMBIO AQUÍ: IMAGEN DE FONDO --- */
+      background-image: url('fondo-marmol.jpg'); /* Asegúrate de que el nombre coincida */
+      background-size: cover; /* Cubre toda la pantalla */
+      background-position: center; /* Centra la imagen */
+      background-repeat: no-repeat; /* No repite la imagen */
+      background-attachment: fixed; /* El fondo se queda fijo al hacer scroll */
+      /* Fondo de respaldo por si la imagen no carga */
+      background-color: #fbf9f5;
       display: flex;
       justify-content: center;
       align-items: center;
